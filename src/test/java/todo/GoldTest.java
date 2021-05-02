@@ -20,7 +20,7 @@ public class GoldTest {
     @Test
     void Should_Be_In_Middle_Of_Y_When_Created() {
         assertEquals((GameMap.YMAX / 2), gold.getY());
-        assertTrue(gold.getX() > GameMap.XMIN && gold.getX() < GameMap.XMAX);
+        assertTrue(gold.getX() >= GameMap.XMIN && gold.getX() <= GameMap.XMAX);
     }
 
     @Test
