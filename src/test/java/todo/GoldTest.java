@@ -37,6 +37,7 @@ public class GoldTest {
             beforeY = gold.getY();
         }
 
+
         @Test
         void Should_Move_RightAndLeft_When_Command_Is_UpDown() {
             gold.move('w');
