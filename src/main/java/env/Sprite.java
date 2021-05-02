@@ -26,7 +26,7 @@ public class Sprite {
      * @param command 'a' moves the sprite to the left, 'd' moves the sprite to the right.<br>
      *                'w' moves the sprite up, 's' moves the sprite down.
      */
-    public void moveAccordingTo(char command) {
+    public void move(char command) {
         // do nothing here.
     }
 
