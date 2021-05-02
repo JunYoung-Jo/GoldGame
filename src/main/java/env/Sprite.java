@@ -50,4 +50,18 @@ public class Sprite {
     public char getIcon() {
         return icon;
     }
+
+    /**
+     * @param x x-coordinate
+     */
+    public void setX(int x) {
+        this.x = x;
+    }
+
+    /**
+     * @param y y-coordinate
+     */
+    public void setY(int y) {
+        this.y = y;
+    }
 }
