@@ -1,8 +1,8 @@
 package todo;
 
-import java.util.Scanner;
-
 import env.GameMap;
+
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
