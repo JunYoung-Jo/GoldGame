@@ -38,7 +38,7 @@ public class Main {
             if (command == 'q') { // terminate command
                 break;
             } else if (command == 'r') { // wrong command
-                System.out.println("\u001B[31m" + "Please enter the correct command." + "\u001B[0m");
+                System.out.println("Please enter the correct command.");
             } else {
                 /*
                  * @todo write your code
