@@ -48,7 +48,7 @@ public class Main {
                  *              then win
                  *          2-2. if Current Monster location == Current Hero location
                  *              then lose
-                 *          2-3. if win or lose
+                 *          2-3. if win or lose condition is true
                  *              then isEnd = true or false, isWin = true or false
                  */
             }
