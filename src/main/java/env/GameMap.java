@@ -1,7 +1,5 @@
 package env;
 
-import todo.Sprite;
-
 public final class GameMap {
     private static final char[][] map = {
             {'#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#'},
@@ -21,7 +19,6 @@ public final class GameMap {
     public static final int YMIN = 1;
     public static final int YMAX = map.length - 2;
 
-
     private static void drawMap() {
         for (var line : map) {
             for (int i = 0; i < line.length; i++) {
@@ -33,6 +30,7 @@ public final class GameMap {
             System.out.println();
         }
     }
+
     public static void drawMapWith(Sprite... sprites) {
         for (var sprite : sprites) {
             int x = sprite.getX();
@@ -41,4 +39,5 @@ public final class GameMap {
         }
         drawMap();
     }
+
 }
