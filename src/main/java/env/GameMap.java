@@ -1,5 +1,7 @@
 package env;
 
+import todo.Sprite;
+
 public final class GameMap {
     private static final char[][] map = {
             {'#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#'},
@@ -31,5 +33,12 @@ public final class GameMap {
             System.out.println();
         }
     }
-
+    public static void drawMapWith(Sprite... sprites) {
+        for (var sprite : sprites) {
+            int x = sprite.getX();
+            int y = sprite.getY();
+            map[y][x] = sprite.getIcon();
+        }
+        drawMap();
+    }
 }
