@@ -42,7 +42,7 @@ public class Main {
             } else {
                 /*
                  * @todo write your code
-                 *      1. Move the Hero and Monster.
+                 *      1. Move the Hero, Monster, Gold.
                  *      2. Check the termination conditions.
                  *          2-1. if Current Gold location == Current Hero location
                  *              then win
