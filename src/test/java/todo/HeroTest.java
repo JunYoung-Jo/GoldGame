@@ -1,6 +1,7 @@
 package todo;
 
 import env.GameMap;
+import env.Sprite;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
@@ -9,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class HeroTest {
-    static Hero hero;
+    static Sprite hero;
     static char icon;
 
     @BeforeAll
