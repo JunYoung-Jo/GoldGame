@@ -18,6 +18,10 @@ test {
     useJUnitPlatform()
 }
 
-application{
+application {
     mainClass = 'todo.Main'
+}
+
+run {
+    standardInput = System.in
 }
